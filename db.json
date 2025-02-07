@@ -1,0 +1,19 @@
+{
+  "posts": [
+    {
+      "id": "1",
+      "category": "DAW",
+      "title": "How To Use Drum Machine in Logic Pro X"
+    },
+    {
+      "id": "2",
+      "category": "Mixing",
+      "title": "How To Mix Guitars Effectively"
+    },
+    {
+      "id": "3",
+      "category": "Vox",
+      "title": "The Real Power of Harmonies in Music Production"
+    }
+  ]
+}
