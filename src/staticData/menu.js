@@ -20,3 +20,5 @@ export const menu = [
     link: "/testimonials",
   },
 ];
+
+export const logo = ["Sound", "DZign"];

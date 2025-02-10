@@ -1,16 +1,17 @@
-import banner from "../../assets/banner.jpg";
+import { Link } from "react-router-dom";
+import { hero } from "../../staticData/hero";
 
 export const Hero = () => {
   return (
-    <section
-      className="h-[720px] bg-no-repeat bg-cover bg-center relative z-0"
-      style={{ backgroundImage: `url(${banner})` }}>
+    <section className="hero-section">
       <div className="hero">
-        <div className="line">Sound Design Masterclass</div>
-        <h1 className="mb-8 text-[40px] font-bold font-alegreya">
-          Learn the Art of Sound Design
+        <div className="line text-base">{hero.subTitle}</div>
+        <h1 className="text-balance mb-8 text-[32px] md:text-[40px] font-bold font-alegreya">
+          {hero.title}
         </h1>
-        <button className="btn">Demo Lesson</button>
+        <Link to={hero.btnLink} role="button">
+          <button className="btn">{hero.btnText}</button>
+        </Link>
       </div>
     </section>
   );

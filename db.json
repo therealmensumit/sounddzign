@@ -2,18 +2,41 @@
   "posts": [
     {
       "id": "1",
+      "image": "/assets/learn-img.jpg",
       "category": "DAW",
       "title": "How To Use Drum Machine in Logic Pro X"
     },
     {
       "id": "2",
+      "image": "/assets/mixing.jpg",
       "category": "Mixing",
       "title": "How To Mix Guitars Effectively"
     },
     {
       "id": "3",
+      "image": "/assets/vox.jpg",
       "category": "Vox",
       "title": "The Real Power of Harmonies in Music Production"
+    }
+  ],
+  "testimonials": [
+    {
+      "id": "1",
+      "image": "/assets/peter-adams.jpg",
+      "title": "Peter Adams",
+      "text": "This is a great course. I got to learn a lot."
+    },
+    {
+      "id": "2",
+      "image": "/assets/robert-fox.jpg",
+      "title": "Robert Fox",
+      "text": "I got to learn a lot about Music Production with this course. Thanks :)"
+    },
+    {
+      "id": "3",
+      "image": "/assets/emily-smith.jpg",
+      "title": "Emily Smith",
+      "text": "Awesome! Great job!!"
     }
   ]
 }
