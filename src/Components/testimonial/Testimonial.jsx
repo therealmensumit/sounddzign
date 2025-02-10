@@ -2,7 +2,6 @@ import { useGetTestimonilasQuery } from "../../service/api";
 
 export const Testimonial = () => {
   const { data } = useGetTestimonilasQuery();
-  console.log(data);
 
   return (
     <section className="py-20 bg-dark text-white">
