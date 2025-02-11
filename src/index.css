@@ -75,4 +75,28 @@
     @apply relative after:absolute after:-top-8 after:left-0 after:w-20 after:h-16 after:border-pink after:border-8 after:border-b-0 after:border-r-0
 }
 
-/* blog section css */
+.svg-path>path {
+    @apply stroke-1 fill-transparent stroke-white last:stroke-pink;
+    stroke-dasharray: 50;
+    stroke-dashoffset: 50;
+    animation: animateText 4s ease-in-out infinite;
+}
+
+@keyframes animateText {
+    0% {
+        stroke-dashoffset: 50;
+    }
+
+    50% {
+        stroke-dashoffset: 0;
+    }
+
+    80% {
+        fill: #ffffff00;
+    }
+
+    100% {
+        fill: #ffffff;
+        stroke-dashoffset: 50;
+    }
+}
