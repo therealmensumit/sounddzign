@@ -18,8 +18,8 @@ export const Footer = () => {
               {footer?.social?.map((e) => (
                 <Link to={e.link} key={e.id} target="_blank">
                   <svg
-                    width="32"
-                    height="32"
+                    width={e.size}
+                    height={e.size}
                     viewBox="0 0 32 32"
                     fill="none"
                     xmlns="http://www.w3.org/2000/svg">

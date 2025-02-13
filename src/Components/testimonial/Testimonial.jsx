@@ -21,7 +21,9 @@ export const Testimonial = () => {
                     alt={testimonial.title}
                     title={testimonial.title}
                     loading="lazy"
-                    className="w-[100px] h-[100px] rounded-xl"
+                    className="rounded-xl"
+                    width={testimonial.size}
+                    height={testimonial.size}
                   />
                 </div>
                 <div className="text-center md:text-start">
