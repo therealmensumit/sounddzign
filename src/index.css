@@ -25,6 +25,10 @@
     background-color: #0005;
 }
 
+.active {
+    @apply text-pink
+}
+
 .nav-links {
     @apply flex gap-x-12 font-bold
 }
