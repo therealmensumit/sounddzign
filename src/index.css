@@ -21,7 +21,7 @@
 
 /* header css */
 .header {
-    @apply absolute z-10 top-6 left-[50%] -translate-x-[50%] w-[90%] backdrop-blur-2xl mx-auto text-white rounded-b-[10px];
+    @apply fixed z-10 top-6 left-[50%] -translate-x-[50%] w-[90%] backdrop-blur-2xl mx-auto text-white rounded-b-[10px];
     background-color: #0005;
 }
 
@@ -51,7 +51,7 @@
 }
 
 .hero {
-    @apply mx-4 md:mx-0 absolute bottom-0 right-0 md:right-[5%] p-8 rounded-t-[20px] border-4 bg-[#0005] border-white backdrop-blur-2xl border-b-0 text-white max-w-[450px];
+    @apply mx-4 md:mx-0 absolute bottom-0 right-0 md:right-[1%] p-8 rounded-t-[20px] border-4 bg-[#0005] border-white backdrop-blur-2xl border-b-0 text-white max-w-[450px];
 }
 
 .line {
